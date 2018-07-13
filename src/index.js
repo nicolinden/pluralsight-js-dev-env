@@ -15,5 +15,5 @@ getUsers().then(result => {
       </tr>`
   });
 
-  global.decodeURIComponent.getElementById('users').innerHTML = usersBody;
+  global.document.getElementById('users').innerHTML = usersBody;
 })
